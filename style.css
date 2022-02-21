@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: lemon;
+    src: url(fontes/LEMONMILK-Bold.otf);
+}
+
+@font-face {
+    font-family: mono;
+    src: url(fontes/monofonto.otf);
+}
+
+@font-face {
+    font-family: mont;
+    src: url(fontes/Montserrat-Italic-VariableFont_wght.ttf);
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: lemon;
+}
+
+.titulo{
+    text-align: center;
+    color: white;
+    font-family: lemon;
+    font-size: 10px;
+}
+
+.botao{
+        padding: 1.3em 3em;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        font-weight: 500;
+        color: rgb(0, 0, 0);
+        background-color: #fff;
+        border: none;
+        border-radius: 45px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+       }
+       
+       button:hover {
+        background-color: #2EE59D;
+        box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+        color: #fff;
+        transform: translateY(-7px);
+       }
+       
+       button:active {
+        transform: translateY(-1px);
+       
+}
+
+.tithist{
+    font-family: lemon;
+}
+
+.topo a{
+    color: rgb(0, 0, 0);
+    margin-left: 15px;
+    font-family: lemon;
+}
+
+.cabecalho{
+    background-image: linear-gradient(to top,#0A0C36,#14185c, #232ab8,#2832e2,#000dff, transparent);
+    margin: auto;
+    margin-bottom: -20px;
+    padding-bottom: 28px;
+    margin-top: -21px;
+    margin-left: -8px;
+}
+
+body{
+    width: 100%;
+    background-color: #8BC6EC;
+background-image: linear-gradient(180deg, #8BC6EC 32%, #88a0da 50%, #2e61bd 100%);
+}
+
+.conteudo{
+    background-color: white;
+    margin-top: -20px;
+    margin: auto;
+    min-width: 320px;
+    max-width: 1367px;   
+}
+
+.paragrafos{
+    padding-left: 35px;
+    padding-right: 35px;
+    font-family: mont;
+}
+
+.criação{
+    margin-left: 15px;
+    margin-right: 250px;
+    background-image: linear-gradient(to right, #2630e423, white);
+    font-family: lemon;
+}
+
+.historia{
+    margin-left: 20px;
+    font-family: lemon;
+}
+
+.imagem1{
+    width: 170%;
+    padding-left: 43px;
+    @media screen and (max-width: 768px) {
+        width: 200px;
+    }
+}
+
+.design1{
+    display: flex;
+}
+
+.tim{
+    width: 37%;
+    margin: auto;
+    
+}
+
+.video{
+    background-color: lightsteelblue;
+}
+
+.aprender{
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-right: 40px;
+    width: auto;
+    background-color: #1b8af1;
+    padding-left: 45px;
+    padding-bottom: 7px;
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: -16px;
+
+}
+
+.aprender2{
+    background-color: #4b9eecad;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+img{
+    width: 100%;
+}
+
+.p{
+    padding-right: 35px;
+    font-family: mont;
+    padding-left: 245px;
+}
+
+.imgalinhada{
+    text-align: center;
+}
+
+.lista{
+    padding-left: 100px;
+    height: 25px;
+    font-family: mono;
+}
+
+.lista2{
+    padding-left: 800px;
+    height: 25px;
+    font-family: mono;
+}
+
+.plista{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: mono;
+}
+
+.pfim{
+    padding-left: 60px;
+    padding-right: 60px;
+    font-family: mont;
+}
+
+.rodape{
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #b4cfff;
+    width: 102%;
+    margin-left: -9px;
+    padding-top: 8px;
+    font-family: lemon;
+}
